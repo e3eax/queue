@@ -2,6 +2,14 @@
 
 This is a C++ implementation of a generic Queue class that implements the standard methods and functionality common in a queue data structure. The implementation focuses on efficiency, performance, and ease of use.
 
+## Installation
+
+To use the Queue class in your project, simply include the header file in your source code:
+
+```cpp
+#include "Queue.h"
+```
+
 ## Features
 
 - **Generic**: Can hold elements of any data type.
@@ -46,12 +54,4 @@ int main() {
 
     return 0;
 }
-```
-
-## Installation
-
-To use the Queue class in your project, simply include the header file in your source code:
-
-```cpp
-#include "Queue.h"
 ```
