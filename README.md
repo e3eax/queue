@@ -46,7 +46,3 @@ To use the Queue class in your project, simply include the header file in your s
 ```cpp
 #include "Queue.h"
 ```
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Please note that you'll need to include the actual code for your `Queue` class in a separate file (e.g., `Queue.h`). Additionally, if you have a license file for your project, you should replace `[LICENSE](LICENSE)` with the actual path to your license file.
