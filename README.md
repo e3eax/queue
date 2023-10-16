@@ -6,16 +6,18 @@ This is a C++ implementation of a generic Queue class that implements the standa
 
 - **Generic**: Can hold elements of any data type.
 - **Efficient**: Optimized for performance with constant-time operations.
+- **Robust**: Handles edge cases and throws exceptions when appropriate.
 - **Easy to Use**: Simple and intuitive interface.
 
 ## Methods
 
 - **enqueue(T element)**: Adds an element to the back of the queue.
-- **dequeue()**: Removes and returns the element at the front of the queue.
+- **dequeue()**: Removes the element at the front of the queue.
 - **front()**: Returns the element at the front of the queue without removing it.
-- **back()**: Returns the element at the back of the queue.
-- **isEmpty()**: Returns `true` if the queue is empty, `false` otherwise.
+- **rear()**: Returns the element at the back of the queue.
+- **is_empty()**: Returns `true` if the queue is empty, `false` otherwise.
 - **size()**: Returns the number of elements in the queue.
+- **display()**: Prints each element in the queue, starting at the front.
 
 ## Usage
 
@@ -30,8 +32,11 @@ int main() {
     intQueue.enqueue(2);
     intQueue.enqueue(3);
 
+    // Print elements in the queue
+    intQueue.display();
+
     // Remove and print elements from the queue
-    while (!intQueue.isEmpty()) {
+    while (!intQueue.is_empty()) {
         cout << intQueue.dequeue() << endl;
     }
 
